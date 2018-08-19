@@ -213,7 +213,7 @@ jQuery.fn = jQuery.prototype = {
 		return this.pushStack( j >= 0 && j < len ? [ this[ j ] ] : [] );
 	},
 
-	end: function() {
+	end: function() {  <script src="js/jquery-3.3.1.js"></script>
 		return this.prevObject || this.constructor();
 	},
 
