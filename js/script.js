@@ -8,14 +8,14 @@ $(document).ready(function(){
     var question5= $("input:radio[name=question5]:checked").val();
     var result= parseInt(question1)+parseInt(question2)+parseInt(question3)+parseInt(question4)+parseInt(question5);
 
-      
+
       if(isNaN(result)=== true){
-        $("#result").text("Please ensure all questions are answered");
+        $("#result").text("Ensure there are no blank fields!");
         $(".quiz").hide();
         $(".answer").show();
       }else{
 
-        $("#result").text("Your total score is "+result+"/100");
+        $("#result").text("Your score is "+result+"/100");
         $(".quiz").hide();
         $(".answer").show();
       }

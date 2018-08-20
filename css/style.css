@@ -1,27 +1,21 @@
 body{
-  font-weight: bold;
-  font-family:sans-serif;
+  font-weight: normal;
+  font-family: serif;
 
   }
-.container{
-  display:show;
-  background-image: url("../img/abstract.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .answer{
   display:none;
 }
 .jumbotron {
     margin-bottom: 0px;
-    height:280px;
-    background-image: url(../img/javascript.jpeg);
-    background-position: 0% 48%;
+    height:200px;
+    background-position: 0% 35%;
 
-    background-size: cover;
+    background-size: cover ;
     background-repeat: no-repeat;
-    color: yellow;
-    text-shadow: black 0.9em 0.9em 0.9em;
+    color: coral;
+    
 }
 .jumbotron h4{
   text-decoration: underline;
@@ -31,12 +25,17 @@ ol{
 }
 input{
   text-align: center;
+}.container{
+  display:show;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .answer p{
   font-size: 25px;
   font-weight: bold;
   font-family: sans-serif;
 }
+
 .answer h2{
   color: DarkBlue;
   font-size: 30px;
