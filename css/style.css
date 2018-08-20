@@ -1,39 +1,40 @@
 body{
   font-weight: normal;
-  font-family: serif;
+  font-family:sans-serif;
 
   }
-
+.container{
+  display:show;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .answer{
   display:none;
 }
 .jumbotron {
     margin-bottom: 0px;
-    height:300px;
-    background-position: 0% 35%;
+    height:280px;
+    background-position: 0% 30%;
 
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
     color: coral;
+  
+}
 
 }
 
 }
 input{
   text-align: center;
-}.container{
-  display:show;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .answer p{
   font-size: 25px;
   font-weight: bold;
   font-family: sans-serif;
 }
-
 .answer h2{
-  color: Red;
+  color: Blue;
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;

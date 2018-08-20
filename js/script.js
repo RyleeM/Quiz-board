@@ -15,7 +15,7 @@ $(document).ready(function(){
         $(".answer").show();
       }else{
 
-        $("#result").text("Your score is "+result+"/100");
+        $("#result").text("Your score is "+result+"/50");
         $(".quiz").hide();
         $(".answer").show();
       }
