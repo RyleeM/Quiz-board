@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("form#options").submit(function(event){
+  $("form#myForm").submit(function(event){
 
     var question1= $("input:radio[name=question1]:checked").val();
     var question2= $("input:radio[name=question2]:checked").val();
