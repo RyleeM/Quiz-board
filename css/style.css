@@ -9,19 +9,15 @@ body{
 }
 .jumbotron {
     margin-bottom: 0px;
-    height:200px;
+    height:300px;
     background-position: 0% 35%;
 
     background-size: cover ;
     background-repeat: no-repeat;
     color: coral;
-    
+
 }
-.jumbotron h4{
-  text-decoration: underline;
-}
-ol{
-  list-style-position:inside;
+
 }
 input{
   text-align: center;
@@ -37,7 +33,7 @@ input{
 }
 
 .answer h2{
-  color: DarkBlue;
+  color: Red;
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
